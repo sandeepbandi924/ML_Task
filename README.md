@@ -19,7 +19,7 @@ The objective of this project was to develop a personalized feed algorithm for a
 - **Temporal Features**: We calculated the recency of each post by determining the age of the post in days from the current date. This feature helps in understanding the temporal relevance of posts to users.
 
 #### 4. Model Development
-- **Algorithm Selection**: We chose Logistic Regression as our machine learning model due to its simplicity and effectiveness for binary classification tasks.
+- **Algorithm Selection**: We chose Logistic Regression as our machine learning model due to its simplicity and effectiveness for binary classification tasks.Still Implemented with all other ML Algo.
 - **Training the Model**: The dataset was split into training and testing sets. The Logistic Regression model was trained on the training data, learning to predict the relevance of posts to users based on the engineered features.
 - **Evaluation Metrics**: The model's performance was evaluated using accuracy, precision, and recall metrics. These metrics provided insights into how well the model could distinguish between relevant and non-relevant posts.
 
